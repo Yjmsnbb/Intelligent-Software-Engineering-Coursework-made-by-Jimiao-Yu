@@ -96,13 +96,16 @@ AUC: 0.9545
 ```plaintext
 .
 ├── br_classification_optimized.py     # SVM implementation with optimized classification
-├── bert_classification.py            # BERT-based text classification model
+├── bert_classification.py             # BERT-based text classification model
+├── manual.pdf                         # A manual to explain how to use the tool
+├── replication.pdf                    # A clear instruction as to how we can replicate the results reported.
+├── requirements.pdf                   # Any dependencies/versions that are required to compile or run the code.
 ├── datasets/
-│   ├── pytorch.csv                   # PyTorch-related issue dataset
-│   ├── incubator-mxnet.csv           # MXNet-related issue dataset
-│   ├── keras.csv                     # Keras-related issue dataset
-│   └── tensorflow.csv                # TensorFlow-related issue dataset
-└── README.md                         # Project documentation
+│   ├── pytorch.csv                    # PyTorch-related issue dataset
+│   ├── incubator-mxnet.csv            # MXNet-related issue dataset
+│   ├── keras.csv                      # Keras-related issue dataset
+│   └── tensorflow.csv                 # TensorFlow-related issue dataset
+└── README.md                          # Project documentation
 ```
 
 ## Reproducibility
